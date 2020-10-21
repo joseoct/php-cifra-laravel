@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+ 
+}
+.title-form{
+  color: white !important;
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  
+}
+.bg-image{
+  background-image: url(../images/bg1.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.btn-form{
+  background-color:#614c3f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #99d5e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-inputs {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+}
+.login-inputs input{
+  border-radius: 8px;
+}
+.form-container{
+  background-image: -webkit-linear-gradient( -4deg, #bd6638 28%, #da9772 81%, #c09778 100% ) !important;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  width: 450px;
+  height: 300spx;
+  padding: 50px 30px;
+}
+.form-container label{
+  color: white;
+  font-size: 18px;
+}
+.entrar-input {
+  margin-top: 16px;
+  width: 200px;
+}
+.form-login{
+  padding: 130px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-new-cifra{
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-cifra-container{
+  background-image: -webkit-linear-gradient( -4deg, #bd6638 28%, #da9772 81%, #c09778 100% ) !important;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  width: 800px;
+  padding: 50px 30px;
+}
+.new-cifra-container label{
+  color: white;
+  font-size: 18px;
+}
+.btn-ver-cifra{
+  display: flex;
+  justify-content: center;
+}
+.cifra-table thead{
+  border-radius: 8px;
+}
+.cifras-table td{
+  font-size: 18px;
+  vertical-align: middle !important;
+}
+.cifras-table tr{
+  background-color:#eaac79;
+}
+.cifras-table tr:hover{
+  background-color:#634328 !important;
+  color: white;
+}
+.cifra-list{
+  padding: 140px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cifra-list-container{
+  background-image: -webkit-linear-gradient( -4deg, #bd6638 28%, #da9772 81%, #c09778 100% ) !important;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  width: 800px;
+  padding: 50px 30px;
+}
+.cifra-details{
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cifra-details-container{
+  background-image: -webkit-linear-gradient( -4deg, #bd6638 28%, #da9772 81%, #c09778 100% ) !important;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  width: 800px;
+  padding: 50px 30px;
+}
+.cifra-details-container textarea{
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+}
+.my-cifras{
+  padding: 200px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-cifra-usuario{
+  display: flex;
+  justify-content: space-around;
+}
+.page-footer {
+    color: #ededed;
+    font-size: 14px;
+    padding: 50px 0 50px 0;
+    background: #634328;
+    overflow: hidden; 
+    width: 100%;
+}
+.page-header {
+  font-size: 14px;
+  padding:  20px;
+  background-image: -webkit-linear-gradient( -4deg, #48352f 28%, #bd6638 81%, #bd6638 100% ) !important;
+  overflow: hidden;
+}
+.header-logo{
+  width: 200px;
+}
